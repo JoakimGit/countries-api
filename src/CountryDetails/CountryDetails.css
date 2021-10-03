@@ -1,0 +1,65 @@
+.btn-back {
+    width: max-content;
+    margin: 2em;
+    background-color: var(--element-color);
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0 0 4px hsl(209, 23%, 22%);
+}
+
+.btn-back i {
+    margin-right: 0.5rem;
+}
+
+.btn-back a {
+    display: block;
+    padding: 0 1.5em;
+}
+
+.countryDetails .cardTextBox {
+    background-color: inherit;
+}
+
+.countryDetails .flag-container {
+    padding: 1.5em;
+}
+
+.dark .btn-back {
+    box-shadow: 0 0 5px hsl(0, 0%, 0%);
+}
+
+.dark .borderCountry {
+    box-shadow: 0 0 4px hsl(200, 15%, 8%);
+}
+
+.borderCountriesHeader {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.875rem;
+}
+
+.borderCountries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.borderCountry {
+    padding: 0.2rem 1.5rem;
+    margin: 0.5rem;
+    background-color: var(--element-color);
+    border-radius: 2px;
+    font-size: 0.750em;
+    box-shadow: 0 0 4px hsl(0, 0%, 85%);
+}
+
+.borderCountry:hover {
+	background-color: var(--bg-color);
+}
+
+.borders {    
+	margin-top: 1rem;
+}
+
+.no-borders {
+    margin-left: 0.5rem;
+}

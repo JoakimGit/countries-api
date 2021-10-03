@@ -1,0 +1,44 @@
+.filterBar {
+    padding: 1.5rem 1rem;
+	font-size: 0.875rem;
+}
+
+.filterSearch {
+    background-color: var(--element-color);
+    padding: 0.9rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.filterSearch input {
+    border: none;
+    margin-left: 1.5rem;
+	font-family: 'Nunito Sans', sans-serif;
+    color: var(--input-text-color);
+    background-color: var(--element-color);
+	font-size: 0.875em;
+}
+
+.filterRegion {
+    background-color: var(--element-color);
+    padding: 0.9rem;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.filterRegion select {
+    background: var(--select-angle-icon) no-repeat right;
+    padding-right: 3rem;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;    
+	font-family: 'Nunito Sans', sans-serif;
+    color: var(--text-color);
+	font-size: 0.875em;
+    position: relative;
+}
+
+.filterRegion option {
+    background-color: var(--element-color);
+}

@@ -1,0 +1,122 @@
+.countryList {
+  padding: 2.5rem;
+	padding-top: 1rem;
+}
+
+.cardTextBox {
+	padding: 1.5rem;
+	background-color: var(--element-color);
+	border-radius: 0 0 5px 5px;
+	font-size: 0.875rem;
+	line-height: 1.9;
+}
+
+.cardTextBox h3 {
+	margin-bottom: 1rem;
+}
+
+.cardTextBox span {
+	font-weight: 600;
+}
+
+.countryCard {
+	margin-bottom: 2rem;
+}
+
+.countryCard:last-child {
+	margin-bottom: 0;
+}
+
+.countryCard img {
+	border-radius: 5px 5px 0 0;	
+    width: 100%;
+    min-height: 10em;
+    height: 35vw;
+    object-fit: cover;
+}
+
+@media (min-width: 45em) {
+	.countryList {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3em;
+	}
+
+	.countryList img {
+		height: 15vw;
+	}
+
+	
+}
+  
+@media (min-width: 80em) {
+	.countryList {
+		padding: 2rem 4rem;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	.countryList img {
+		height: 10em;
+	}
+
+	.header {
+		padding: 2rem 4rem;
+	}
+
+	.filterBar {
+		display: flex;
+		justify-content: space-between;
+		padding: 2rem 4rem;
+	}
+
+	.filterSearch {
+		margin-bottom: 0;
+		width: 35%;
+	}
+
+	.filterSearch input {
+		width: calc(100% - 3rem);
+	}
+
+	.countryDetails {
+		padding: 2.5rem;
+	}
+
+	.detailsBoxHeader {
+		margin-block: 2rem 1rem;
+	}
+
+	.countryDetails .countryCard {
+		display: flex;		
+	}
+
+	.cardDetailsText {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.countryDetails .cardTextBox {
+		margin-left: 4rem;
+		min-width: 40%;
+	}
+
+	.borders {
+		display: flex;
+		align-items: center;
+	}
+	
+	.borders .borderCountriesHeader {
+		margin-bottom: 0;
+	}
+
+	.countryDetails .flag-container {
+		max-width: 600px;
+		max-height: 400px;
+	}
+}
+
+@media (min-width: 105em) {
+	.countryList img {
+		height: 15em;
+	}
+}
